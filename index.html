@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - LuaPDB Decrypt Extension</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.8; color: #333; }
+    h1 { color: #1a1a1a; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    h2 { color: #444; margin-top: 32px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    code { background: #f5f5f5; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+    .highlight { background: #f0f7ff; border-left: 4px solid #1a6de0; padding: 12px 16px; margin: 16px 0; border-radius: 0 4px 4px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p><strong>Extension Name:</strong> LuaPDB Decrypt Extension<br>
+  <strong>Last Updated:</strong> April 20, 2026</p>
+
+  <div class="highlight">
+    <strong>Summary:</strong> This extension does not collect, store, or share any personal data.
+    Stack trace data is only sent to an internal company server upon explicit user action,
+    and is never transmitted to any third party.
+  </div>
+
+  <h2>1. Introduction</h2>
+  <p>LuaPDB Decrypt Extension is an internal developer tool built exclusively for authorized
+  employees of our organization. It assists engineers in decrypting obfuscated Lua stack traces
+  displayed on internal crash analysis pages.</p>
+
+  <h2>2. Data We Access</h2>
+  <p>The extension accesses the following data <strong>only when the user explicitly clicks
+  the decrypt button</strong>:</p>
+  <ul>
+    <li><strong>Encrypted Lua stack trace text</strong> — the obfuscated stack trace content
+    already visible to the user on the current page.</li>
+  </ul>
+  <p>The extension does <strong>not</strong> access, read, or process:</p>
+  <ul>
+    <li>Personally identifiable information (PII)</li>
+    <li>Browsing history</li>
+    <li>Cookies or authentication tokens</li>
+    <li>Any content outside of the designated internal AppDump pages</li>
+  </ul>
+
+  <h2>3. How Data Is Used</h2>
+  <p>When the user clicks the decrypt button, the selected stack trace text is transmitted
+  to an internal company API server (<code>l36.leihuo.netease.com:12680</code>) for
+  decryption processing. The decrypted result is returned and displayed directly in the
+  browser — replacing the encrypted text on the page.</p>
+  <p>This data transmission:</p>
+  <ul>
+    <li>Occurs <strong>only upon explicit user action</strong> — no passive or background data collection</li>
+    <li>Is sent exclusively to an <strong>internal company server</strong> within the organization's private network</li>
+    <li>Is <strong>not stored</strong> permanently on any server</li>
+    <li>Is <strong>not used</strong> for analytics, advertising, or any purpose other than decryption</li>
+  </ul>
+
+  <h2>4. Data Sharing</h2>
+  <p>We do <strong>not</strong> share any data with third parties. The extension does not
+  integrate with any external analytics platforms, advertising networks, or data brokers.</p>
+
+  <h2>5. User Consent</h2>
+  <p>No data is collected or transmitted without the user's explicit action. The extension
+  only activates when the user clicks the "🔓 LuaPDB Decrypt" button. Users may choose
+  not to use the decrypt feature at any time.</p>
+
+  <h2>6. Data Retention</h2>
+  <p>The extension itself retains no data. Stack trace content processed by the internal
+  API server is used solely to produce the decrypted output and is not retained after
+  the response is returned.</p>
+
+  <h2>7. Security</h2>
+  <p>All data is transmitted within the company's internal network. The extension operates
+  only on designated internal pages (<code>unisdk.nie.netease.com/appdump/l36*</code>)
+  and only communicates with the designated internal API endpoint.</p>
+
+  <h2>8. Audience</h2>
+  <p>This extension is intended solely for internal use by authorized company employees.
+  It is not designed for or directed at the general public or minors.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>Any updates to this privacy policy will be reflected on this page with an updated
+  "Last Updated" date.</p>
+
+  <h2>10. Contact</h2>
+  <p>For questions regarding this privacy policy, please contact your internal
+  development or IT team.</p>
+
+</body>
+</html>
